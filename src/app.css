@@ -1,0 +1,18 @@
+@import url("http://fonts.cdnfonts.com/css/open-sans");
+
+:root {
+  --color-light: #fffef3;
+  --color-dark: #333;
+  --color-dark-600: #222;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-light);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+}
