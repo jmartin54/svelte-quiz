@@ -4,20 +4,22 @@
   import Welcome from "./pages/Welcome.svelte";
   import WarmOrCool from "./pages/WarmOrCool.svelte";
 
-  let page = 0;
+  let page = 1;
   let outOf = 12;
 
   function handleClick() {
     page = (page + 1) % (outOf + 1);
   }
 
+  let warmCool;
+
 </script>
 
 <main>
   <Header />
-  {#if      page == 0}  <Welcome on:click={handleClick} />
-  {:else if page == 1}  <WarmOrCool on:click={handleClick} />
-  {:else if page == 2}  <WarmOrCool on:click={handleClick} />
+  {warmCool}
+  {#if      page == 1}  <Welcome on:click={handleClick} />
+  {:else if page == 2}  <WarmOrCool on:click={handleClick} bind:selected={warmCool} />
   {:else}               <Welcome on:click={handleClick} />
   {/if}
   <Footer {page} {outOf} />
