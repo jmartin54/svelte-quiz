@@ -4,13 +4,13 @@ import VStack from "../lib/VStack.svelte";
 import { best_colors } from "../assets/theme/best_colors";
 import PageLayout from "./PageLayout.svelte";
 
-  export let red;
+  export let x;
 
 </script>
 <PageLayout on:click>
     <h1> Hello world </h1>
 
-    {red}
+    {x[0].toString(16)}
     
     {#each Object.entries(best_colors) as [group, colors]} 
       <VStack>
