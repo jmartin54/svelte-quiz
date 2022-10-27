@@ -12,6 +12,24 @@ export const reds = {
   red_purple: "rgb(181, 018, 063)",
 };
 
+export const greens = {
+  red_orange: "rgb(071, 093, 059)",
+  yellow_orange: "rgb(139, 117, 009)",
+  yellow_green: "rgb(174, 156, 075)",
+  blue_green: "rgb(013, 088, 059)",
+  blue_purple: "rgb(027, 085, 087)",
+  red_purple: "rgb(055, 089, 080)",
+};
+
+export const blues = {
+  red_orange: "rgb(000, 137, 139)",
+  yellow_orange: "rgb(000, 133, 129)",
+  yellow_green: "rgb(023, 129, 115)",
+  blue_green: "rgb(019, 137, 160)",
+  blue_purple: "rgb(099, 092, 144)",
+  red_purple: "rgb(049, 071, 178)",
+};
+
 export const best_colors = {
   red_orange: [
     "rgb(139, 035, 034)",
@@ -19,8 +37,8 @@ export const best_colors = {
     "rgb(176, 062, 033)",
     "rgb(255, 206, 113)",
     "rgb(150, 178, 112)",
-    "rgb(071, 093, 059)",
-    "rgb(000, 137, 139)",
+    greens["red_orange"],
+    blues["red_orange"],
     "rgb(255, 176, 160)",
     "rgb(190, 117, 111)",
     "rgb(076, 030, 032)",
@@ -32,8 +50,8 @@ export const best_colors = {
     reds["yellow_orange"],
     "rgb(249, 118, 041)",
     "rgb(181, 138, 062)",
-    "rgb(139, 117, 009)",
-    "rgb(000, 133, 129)",
+    greens["yellow_orange"],
+    blues["yellow_orange"],
     "rgb(200, 142, 105)",
     "rgb(125, 085, 045)",
   ],
@@ -41,20 +59,20 @@ export const best_colors = {
     "rgb(255, 237, 118)",
     "rgb(255, 252, 180)",
     "rgb(233, 210, 104)",
-    "rgb(174, 156, 075)",
+    greens["yellow_green"],
     "rgb(221, 152, 097)",
     reds["yellow_green"],
     "rgb(255, 156, 154)",
-    "rgb(023, 129, 115)",
+    blues["yellow_green"],
     "rgb(147, 090, 070)",
     "rgb(111, 075, 059)",
   ],
   blue_green: [
     "rgb(071, 162, 174)",
-    "rgb(019, 137, 160)",
+    blues["blue_green"],
     "rgb(021, 078, 081)",
     "rgb(039, 141, 109)",
-    "rgb(013, 088, 059)",
+    greens["blue_green"],
     "rgb(255, 234, 167)",
     "rgb(253, 172, 180)",
     "rgb(238, 100, 116)",
@@ -66,11 +84,11 @@ export const best_colors = {
     "rgb(141, 207, 254)",
     "rgb(102, 133, 213)",
     "rgb(053, 096, 140)",
-    "rgb(099, 092, 144)",
+    blues["blue_purple"],
     reds["blue_purple"],
     "rgb(255, 143, 199)",
     "rgb(127, 087, 127)",
-    "rgb(027, 085, 087)",
+    greens["blue_purple"],
     "rgb(010, 017, 114)",
   ],
   red_purple: [
@@ -79,10 +97,10 @@ export const best_colors = {
     reds["red_purple"],
     "rgb(068, 030, 077)",
     "rgb(125, 091, 174)",
-    "rgb(049, 071, 178)",
+    blues["red_purple"],
     "rgb(173, 030, 096)",
     "rgb(102, 085, 191)",
-    "rgb(055, 089, 080)",
+    greens["red_purple"],
     "rgb(125, 091, 174)",
   ],
 };

@@ -1,7 +1,7 @@
 <div 
     style:background={$$props.color} 
     style:height={$$props.height} 
-    style:transform={$$props.circle? "rotate(-15deg) scale(0.75)" : ""}
+    style:transform={$$props.circle? "rotate(-5deg) scale(0.75)" : ""}
     on:click
     on:keypress>
 </div>

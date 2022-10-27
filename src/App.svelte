@@ -4,7 +4,8 @@
   import Welcome from "./pages/Welcome.svelte";
   import TestColorGroups from "./pages/TestColorGroups.svelte";
   import WarmOrCool from "./pages/WarmOrCool.svelte";
-  import PickRed from "./pages/PickRed.svelte";
+  import PickColors from "./pages/PickColors.svelte";
+  import { reds, greens, blues } from "./assets/theme/best_colors";
 
   let page = 1;
   let outOf = 12;
@@ -14,7 +15,7 @@
   }
 
   let warmCool;
-  let red
+  let red, green, blue
 
 </script>
 
@@ -22,8 +23,10 @@
   <Header />
   {#if      page == 1}  <Welcome on:click={handleClick} />
   {:else if page == 2}  <WarmOrCool on:click={handleClick} bind:selected={warmCool} />
-  {:else if page == 3}  <PickRed on:click={handleClick} bind:selected={red} />
-  {:else if page == 4}  <TestColorGroups on:click={handleClick} {red} />
+  {:else if page == 3}  <PickColors on:click={handleClick} bind:selected={red} colors={reds} />
+  {:else if page == 4}  <PickColors on:click={handleClick} bind:selected={green} colors={greens} />
+  {:else if page == 5}  <PickColors on:click={handleClick} bind:selected={blue} colors={blues} />
+  {:else if page == 6}  <TestColorGroups on:click={handleClick} {red} />
   {:else}               <Welcome on:click={handleClick} />
   {/if}
   <Footer {page} {outOf} />
