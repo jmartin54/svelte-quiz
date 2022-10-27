@@ -1,9 +1,70 @@
 @import url("http://fonts.cdnfonts.com/css/open-sans");
 
 :root {
-  --color-light: #fffef3;
-  --color-dark: #333;
-  --color-dark-600: #222;
+  /* http://www.vendian.org/mncharity/dir3/blackbody/ */
+  --color-blackbody-w1000: hsl(13, 100%, 20%);
+  --color-blackbody-1000: #ff3800;
+  --color-blackbody-1200: #ff5300;
+  --color-blackbody-1400: #ff6500;
+  --color-blackbody-1600: #ff7300;
+  --color-blackbody-1800: #ff7e00;
+  --color-blackbody-2000: #ff8912;
+  --color-blackbody-2200: #ff932c;
+  --color-blackbody-2400: #ff9d3f;
+  --color-blackbody-2600: #ffa54f;
+  --color-blackbody-2800: #ffad5e;
+  --color-blackbody-3000: #ffb46b;
+  --color-blackbody-3200: #ffbb78;
+  --color-blackbody-3400: #ffc184;
+  --color-blackbody-3600: #ffc78f;
+  --color-blackbody-3800: #ffcc99;
+  --color-blackbody-4000: #ffd1a3;
+  --color-blackbody-4200: #ffd5ad;
+  --color-blackbody-4400: #ffd9b6;
+  --color-blackbody-4600: #ffddbe;
+  --color-blackbody-4800: #ffe1c6;
+  --color-blackbody-5000: #ffe4ce;
+  --color-blackbody-5200: #ffe8d5;
+  --color-blackbody-5400: #ffebdc;
+  --color-blackbody-5600: #ffeee3;
+  --color-blackbody-5800: #fff0e9;
+  --color-blackbody-6000: #fff3ef;
+  --color-blackbody-6200: #fff5f5;
+  --color-blackbody-6400: #fff8fb;
+  --color-blackbody-6600: #fef9ff;
+  --color-blackbody-6800: #f9f6ff;
+  --color-blackbody-7000: #f5f3ff;
+  --color-blackbody-7200: #f0f1ff;
+  --color-blackbody-7400: #edefff;
+  --color-blackbody-7600: #e9edff;
+  --color-blackbody-7800: #e6ebff;
+  --color-blackbody-8000: #e3e9ff;
+  --color-blackbody-10600: #c7d8ff;
+  --color-blackbody-13200: #b9d0ff;
+  --color-blackbody-14800: #b3ccff;
+  --color-blackbody-17400: #adc8ff;
+  --color-blackbody-20000: #a8c5ff;
+  --color-blackbody-23000: #a4c2ff;
+  --color-blackbody-28400: #a0bfff;
+  --color-blackbody-4000: #9bbcff;
+  --color-blackbody-c6000: hsl(220, 100%, 60%);
+  --color-blackbody-c4000: hsl(220, 100%, 40%);
+  --color-blackbody-c2000: hsl(220, 100%, 20%);
+  --color-blackbody-c1000: hsl(220, 100%, 10%);
+  --color-blackbody-c500: hsl(220, 100%, 5%);
+
+  /* --color-light: #fffef3; */
+  /* --color-dark-400: #555; */
+  /* --color-dark: #333; */
+  /* --color-dark-600: #222; */
+
+  --color-light: var(--color-blackbody-6400);
+  --color-light-200: var(--color-blackbody-4800);
+  --color-light-800: var(--color-blackbody-w1000);
+
+  --color-dark-400: var(--color-blackbody-13200);
+  --color-dark-200: var(--color-blackbody-c2000);
+  --color-dark: var(--color-blackbody-c500);
 }
 
 html,

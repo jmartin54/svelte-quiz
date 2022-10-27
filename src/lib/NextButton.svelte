@@ -23,7 +23,7 @@
 
     button:hover,
     button:focus {
-        background: var(--color-dark-600);
+        background: var(--color-dark-200);
     }
 
     button:focus {
