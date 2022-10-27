@@ -1,11 +1,17 @@
-<div style:background={$$props.color}></div>
+<div 
+    style:background={$$props.color} 
+    style:height={$$props.height} 
+    style:transform={$$props.circle? "rotate(-15deg) scale(0.75)" : ""}
+    on:click
+    on:keypress>
+</div>
 
 <style>
     div {
         display: flex;
         flex: 1;
-        height: 5vh;
         margin: 0.1vw;
         border-radius: 1vw;
+        transition: transform 400ms ease-out;
     }
 </style>

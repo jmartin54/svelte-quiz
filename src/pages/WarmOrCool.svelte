@@ -30,15 +30,15 @@
       class={ selected == temp ? 'active option' : 'option' }
     >
     <VStack>
-      {temp}
+      <!-- {temp} -->
       {#each color_groups as color_group}
-        <HStack>
+      <HStack>
           {#each best_colors[color_group] as color}
-          <Swatch {color} />
+          <Swatch {color} height="5vh" />
           {/each}
-        </HStack>
+      </HStack>
       {/each}
-      </VStack>
+    </VStack>
     </div>
     <Space />
   {/each}

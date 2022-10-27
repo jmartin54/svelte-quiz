@@ -3,10 +3,19 @@ export const warm_cool = {
   cool: ["blue_green", "blue_purple", "red_purple"],
 };
 
+export const reds = {
+  red_orange: "rgb(170, 044, 049)",
+  yellow_orange: "rgb(213, 080, 041)",
+  yellow_green: "rgb(229, 122, 099)",
+  blue_green: "rgb(235, 034, 064)",
+  blue_purple: "rgb(166, 067, 102)",
+  red_purple: "rgb(181, 018, 063)",
+};
+
 export const best_colors = {
   red_orange: [
     "rgb(139, 035, 034)",
-    "rgb(170, 044, 049)",
+    reds["red_orange"],
     "rgb(176, 062, 033)",
     "rgb(255, 206, 113)",
     "rgb(150, 178, 112)",
@@ -20,7 +29,7 @@ export const best_colors = {
     "rgb(255, 211, 112)",
     "rgb(246, 194, 039)",
     "rgb(243, 135, 072)",
-    "rgb(213, 080, 041)",
+    reds["yellow_orange"],
     "rgb(249, 118, 041)",
     "rgb(181, 138, 062)",
     "rgb(139, 117, 009)",
@@ -34,7 +43,7 @@ export const best_colors = {
     "rgb(233, 210, 104)",
     "rgb(174, 156, 075)",
     "rgb(221, 152, 097)",
-    "rgb(229, 122, 099)",
+    reds["yellow_green"],
     "rgb(255, 156, 154)",
     "rgb(023, 129, 115)",
     "rgb(147, 090, 070)",
@@ -49,7 +58,7 @@ export const best_colors = {
     "rgb(255, 234, 167)",
     "rgb(253, 172, 180)",
     "rgb(238, 100, 116)",
-    "rgb(235, 034, 064)",
+    reds["blue_green"],
     "rgb(255, 173, 225)",
   ],
   blue_purple: [
@@ -58,7 +67,7 @@ export const best_colors = {
     "rgb(102, 133, 213)",
     "rgb(053, 096, 140)",
     "rgb(099, 092, 144)",
-    "rgb(166, 067, 102)",
+    reds["blue_purple"],
     "rgb(255, 143, 199)",
     "rgb(127, 087, 127)",
     "rgb(027, 085, 087)",
@@ -67,7 +76,7 @@ export const best_colors = {
   red_purple: [
     "rgb(120, 022, 074)",
     "rgb(188, 042, 114)",
-    "rgb(181, 018, 063)",
+    reds["red_purple"],
     "rgb(068, 030, 077)",
     "rgb(125, 091, 174)",
     "rgb(049, 071, 178)",

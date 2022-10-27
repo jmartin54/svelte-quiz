@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/open-sans");
+@import url("http://fonts.cdnfonts.com/css/poppins");
 
 :root {
   /* http://www.vendian.org/mncharity/dir3/blackbody/ */
@@ -74,6 +74,11 @@ body {
   padding: 0;
   margin: 0;
   background-color: var(--color-light);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
   display: flex;
+}
+
+h1 {
+  font-weight: 100;
 }
