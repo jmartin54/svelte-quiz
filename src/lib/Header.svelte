@@ -12,11 +12,12 @@
         justify-content: space-between;
         background-color: var(--color-dark);
         color: var(--color-light);
-        padding:  0.3em 1em 0.3em 1em;
+        padding:  0.7em 1em 0.7em 1em;
     }
 
     .logo { 
-        font-size: 1em;
+        /* font-size: 1em; */
+        margin: 0;
     }
 
     .sub {
