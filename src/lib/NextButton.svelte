@@ -1,4 +1,8 @@
-<button on:click>
+<script lang="ts">
+    import { fade } from 'svelte/transition';
+</script>
+
+<button on:click in:fade>
     <slot></slot>
 </button>
 
