@@ -1,9 +1,9 @@
 # Todo:
 
--[] Fix off-screen footer
--[] Add analytics
--[] Image processing to pick hair/skin colors
--[] Image processing to show a person themselves under different color profiles
+- [ ] Fix off-screen footer
+- [ ] Add analytics
+- [ ] Image processing to pick hair/skin colors
+- [ ] Image processing to show a person themselves under different color profiles
 
 # Svelte + TS + Vite
 
